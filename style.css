@@ -1,0 +1,420 @@
+
+
+/* nav{
+  
+    
+
+} */
+
+
+body{
+    background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
+    background-position: center top -550px;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    /* background-color: #F2F2F2; */
+    /* background-color:  #F2F2F2; */
+    /* background-color: #f2f2f29b; */
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+
+}
+
+
+
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav .nav-list-container{
+    display: none;
+}
+
+
+
+
+
+  
+  
+          
+  .close{
+      border-bottom: 1px solid white;
+      display: block;
+      text-align: center; 
+      margin-left: 75%;
+      width: 20px;
+  }
+
+
+
+.header-img{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    
+}
+
+
+header{
+    text-align: center;
+    color: #36536B;
+}
+
+
+
+  .butn-primary{
+    width: 350px; 
+    height: 48px; 
+    background-color: #BA4270; 
+    color: #FBFCFE; 
+    border: none;
+    display: block;
+    border-radius: 24px;
+    margin: auto;   
+  }
+
+
+
+
+  .mail_input{
+     background-color: #FBFCFE;
+     width: 350px; 
+     height: 48px;
+     display: block;
+     margin: auto;
+     border-radius: 24px;
+     border: none;
+     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+     margin-bottom: 1rem; 
+      
+  }
+
+  .mail_input:active{
+      border: none;
+  }
+
+
+  ::placeholder{
+      font-weight: 700;
+      padding-left: 27px;
+  }
+
+  /* header h1{
+      width: 327px;
+      height: 108px;
+      margin: auto;
+      display: block;
+      padding-left: 1rem;
+      text-align: center;
+  } */
+
+
+  article{
+    background-color: #1B262F;
+   padding: 10% 1em;
+
+
+
+  }
+
+
+ .article-text-container{
+    width: 327px;
+    text-align: center;
+    line-height: 28px;
+    /* text-align: center;  */
+ }
+
+main section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ .main-text{
+    text-align: center;
+    color: #36536B;
+    line-height: 28px;
+    padding-top: 8%;
+}
+
+
+
+aside{
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    color: #6C8294;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+
+aside h3{
+    font-weight: 700;
+}
+
+
+
+ #aside_input{
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   padding-left: 5%;
+ 
+} 
+
+
+
+  footer{
+      /* margin: 10px; */
+     background-color: #1B262F;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     /* padding-left: 1rem; */
+     padding-right: 1rem;
+     padding-top: 10%;
+      
+  }
+
+
+
+  /* footer ul{ */
+      /* list-style-type: ; */
+  /* } */
+
+   footer a{
+    color:  #FBFCFE;
+    text-decoration: none;
+   }
+   
+   footer .footer-list{
+       text-align: center;
+   }
+   
+
+   footer .list-inline{
+       text-align: center;
+   }
+
+
+  footer .list-inline-item{
+      margin: 0px 10px 10px 10px;
+      
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+    
+
+
+  .menu{
+      display: none;
+  }
+
+  nav{
+      display: flex;
+  }
+
+  .nav-list-container{
+      display: flex;
+  }
+   
+
+  /* header .container{
+      margin-top: 10%;
+  } */
+
+
+    .header-img{
+        width: 200px;
+        height: 100%;
+        margin-left: 10%;
+    }
+    
+    .butn-primary{
+        width: 173px; 
+        height: 48px;
+        position: relative;
+        left: 272px;
+        margin: 0; 
+        
+      }
+
+      .mail_input{
+        width: 445px; 
+        height: 48px;
+        position: absolute;
+  
+     }
+
+
+
+     article{
+        padding-left: 3rem;
+        padding-right: 3rem;
+       
+     }
+
+     .article-text-container{
+        width: 456px;
+        margin: auto;
+        text-align: center; 
+     }
+
+/*      
+     .article-btn{
+         width: 128px;
+         display: block;
+         margin: auto;
+     } */
+    
+    
+     .main-text{
+         text-align: center;
+     }
+      
+     main{
+        padding-left: 3rem;
+        padding-right: 3rem;
+     }
+
+    
+
+
+     #aside_input{
+        display: flex;
+        flex-direction: row; 
+        align-items: stretch;
+     }
+
+
+     footer{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: baseline;
+         padding-top: 2rem;
+         padding-right: 2rem;
+     }
+
+
+     .footer-list{
+         flex-basis: 50%;
+         display: flex;
+         justify-content: space-between;
+
+     }
+
+     .list-inline{
+         flex-basis: 50%;
+     }
+
+     .list-inline-item{
+         margin-top: 0;
+     }
+
+
+  }
+
+
+  @media only screen and (min-width: 992px) {
+
+
+    body{
+        background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
+        background-position:  right top -550px;
+        background-size: 780px 780px;
+    }
+
+    .header-img{
+        width: 257.61px;
+        height: 100%;
+    } 
+
+    .header-h1{
+        width: 546px;
+        height: 243px;
+    }
+
+
+    .row{
+        flex-direction: row-reverse;
+    }
+
+    .article-text-container{
+        width: 445px;
+        text-align: start;
+        margin: auto;
+         
+     }
+
+   
+
+
+      .article-btn{
+        height: 48px;
+        width: 129px;
+        left: 0px;
+        /* margin-left: 40%; */
+        top: 0px;
+        /* text-align: ; */
+        border-radius: 24px;
+        
+     } 
+
+    
+     .main-text{
+         text-align: start;
+        
+     }
+
+
+     footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 2rem;
+    }
+
+
+    .footer-list{
+        flex-basis: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        order: 1;
+
+    }
+
+    .list-inline{
+        flex-basis: 45%;
+        justify-content: end;
+        /* padding-right: 50px; */
+        
+    }
+
+    /* .item1{
+        margin-right: 20px;
+    } */
+
+    /* .list-inline-item{ */
+        /* margin: 0px  0px 0px; */
+    /* } */
+   
+    
+
+
+  }

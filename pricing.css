@@ -1,0 +1,146 @@
+body{
+    /* background-color: #F2F2F2; */
+    font-size: 15px;
+}
+
+main{
+    /* padding-right: 10%; */
+    /* background-color: #F2F2F2; */
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+main .row{
+    display: flex;
+    flex-direction: column;
+}
+
+ .pricing-main-text{
+    text-align: center;
+    color: #36536B;
+    line-height: 28px;
+    padding: 8% 0px 0px 0px;
+} *
+
+main h2{
+    color: #BA4270;
+    padding-left: 2%;
+    margin-bottom: 10px;
+}
+
+main h1{
+    color: #36536B;
+    font-size: 52px;
+}
+
+
+main ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40%;
+}
+
+
+
+.primary-btn{
+height: 48px;
+width: 168px;
+color: #36536B;
+background: #F2F2F2;
+border-radius: 24px;
+font-weight: 700;
+border: 1px solid #36536B;
+margin-left: 6%;
+
+
+}
+
+.hr{
+    display: block;
+    width: 90%;
+    margin: auto;
+    /* margin-left: ; */
+}
+
+main p{
+display: none;
+}
+
+
+main li{
+    margin-bottom: 3px;
+}
+/* main ul{
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    opacity: 0.25;
+} */
+
+span img{
+    padding-right: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+    .pricing-main-text{
+        text-align: center;
+    }
+
+
+    main ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 1%;
+    }
+
+    main div p{
+        height: 84px;
+        width: 223px;
+        display: block;
+        /* left: 0px;
+        top: 53px;
+        border-radius: nullpx; */
+        
+        }
+
+
+        main .row{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .main-ul{
+         padding-left: 30%;
+        }
+
+}
+
+
+@media screen and (min-width: 992px){
+
+
+.pricing-main-text{
+    text-align: start;
+}
+
+main .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-ul{
+    padding-left: 2.8px;
+   }
+
+}
