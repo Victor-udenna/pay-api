@@ -3,6 +3,13 @@ body{
     font-size: 15px;
 }
 
+header h1{
+    text-align: center;
+    font-size: 32px;
+
+}
+
+
 main{
     /* padding-right: 10%; */
     /* background-color: #F2F2F2; */
@@ -91,6 +98,12 @@ span img{
 
 @media screen and (min-width: 768px){
 
+    header h1{
+        text-align: center;
+        font-size: 48px;
+    }
+    
+
     .pricing-main-text{
         text-align: center;
     }
@@ -128,6 +141,15 @@ span img{
 
 
 @media screen and (min-width: 992px){
+
+    header h1{
+        text-align: start;
+        font-size: 56px;
+        padding-top: 30px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
 
 
 .pricing-main-text{
