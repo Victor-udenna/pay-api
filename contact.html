@@ -57,61 +57,70 @@
 
   <main class="row">
 
-    <section class="col-sm-12 col-md-8 col-lg-6 row mx-auto px-3 gy-3 pt-4">
-
-      <form action="">
-
-        <div>
-          <label for="formname">Name</label>
-          <input type="text" name="" id="formname">
-        </div>
-
-
-        <div>
-          <label for="formemail">Email Address</label>
-          <input type="email" name="" id="formemail">
-
-        </div>
-
-
-        <div>
-          <label for="companyname">Company Name</label>
-          <input type="text" name="" id="companyname">
-        </div>
-
-
-
-        <div>
-          <label for="formtitle">Title</label>
-          <input type="text" name="" id="formtitle">
-        </div>
-
-
-
-        <div>
-          <label for="textarea">Message</label>
-          <textarea name="" id="textarea" style="width: 100%; height: 50px"></textarea>
-        </div>
-
-
-
-        <div>
-          <label for="checkbox"> Stay up-to-date with company announcements and updates to our API
-            Submit</label>
-          <input type="checkbox" name="" id="checkbox">
-        </div>
-      </form>
-
-
-
-
-
-
-    </section>
-
-
+ 
 
     <section class="col-sm-12 col-md-8 col-lg-6 row mx-auto px-3 gy-3 pt-4">
+<form class=" row needs-validation" novalidate>
+
+  <div class="mb-3">
+  <label for="Name" class="form-label">Name</label>
+<input type="text" id="Name" class="form-input ">
+<div class="invalid-feedback">
+  Please choose a username.
+</div>
+</div>
+
+<div class="mb-3">
+  <label for="Email" class="form-label">Email</label>
+  <input type="email" id="Email" class="form-input ">
+</div>
+
+
+<div class="mb-3">
+  <label for="companyname" class="form-label">Company name</label>
+  <input type="text" id="companyname" class="form-input ">
+</div>
+
+<div class="mb-3">
+  <label for="title" class="form-label">Title</label>
+  <input type="text" id="title" class="form-input ">
+</div>
+
+
+<div class="mb-3">
+  <label for="message" class="form-label">Message</label>
+  <textarea name="message" id="message" class="form-input ">
+
+  </textarea>
+</div>
+
+
+<div class="form-check ms-3 mb-3">
+
+  <div>
+    <input type="checkbox" class="form-check-input" id="flexCheckDefault">
+  </div>
+
+<div>
+  <label for="flexCheckDefault" class="form-check-label">Stay up-to-date with company announcements and updates to our API</label>
+
+</div>
+ </div>
+
+ <div class="btn-container">
+  <button type="submit" class="primary-btn mt-3">Submit</button>
+</div>
+
+
+</form>
+
+
+
+
+
+</section>
+
+    <section class="col-sm-12 col-md-8 col-lg-6 row mx-auto px-3 gy-3 pt-4" id="section2">
 
       <div>
         <h2>

@@ -13,6 +13,72 @@ body{
 }
 
 
+
+
+.form-label{
+    margin-left: 10px;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid grey;
+}
+
+form{
+ width: 372px;
+}
+
+
+
+
+form input :active{
+    border-bottom: 1px solid #FF0000;
+    opacity: 0.5;
+}
+
+/* input :active{
+    color: #FF0000;
+} */
+
+.primary-btn{
+    height: 48px;
+    width: 168px;
+    color: #36536B;
+    background: #F2F2F2;
+    border-radius: 24px;
+    font-weight: 700;
+    border: 1px solid #36536B;
+
+    
+    
+    }
+
+
+    .primary-btn:hover{
+        background-color: #36536B;
+        color: #F2F2F2;
+    }
+
+
+    label:hover{
+        color: #FF0000;
+    }
+
+    input :hover{
+        border: 1px solid #FF0000;
+    }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,7 +97,9 @@ nav .nav-list-container{
 
 header h1{
     text-align: center;
-
+    font-size: 32px;
+    color: #36536B;
+    padding: 2% 5%; 
 }
 
 
@@ -52,6 +120,19 @@ main h2{
     border-radius: 24px;
     margin: auto;   
   }
+
+  .butn-primary:hover{
+      background-color: rgba(186, 66, 112, 0.75);
+  }
+
+  .btn-container{
+    text-align: center;
+}
+
+#flexCheckDefault:checked {
+    background-color: #BA4270;
+    border-color: #BA4270;
+}
 
 
 
@@ -102,7 +183,10 @@ main h2{
        
    }
  
- 
+   footer li{
+    cursor: pointer;
+}
+
  
    /* footer ul{ */
        /* list-style-type: ; */
@@ -132,6 +216,7 @@ main h2{
 
 header h1{
     text-align: center;
+    font-size: 48px;
 }
 
 .menu{
@@ -161,6 +246,10 @@ main h2{
     left: 272px;
     margin: 0; 
     
+  }
+
+  .btn-container{
+      text-align: center;
   }
 
   .mail_input{
@@ -203,15 +292,29 @@ main h2{
  }
 
 
+ form{
+    width: 445px;
+   }
+
 }
 
 @media screen and (min-width: 992px){
 
 header h1{
     text-align: start;
+    font-size: 56px;
+    width: 730px;
+    height: 132px;
+}
+
+header{
+    padding-bottom: 5%;
 }
 
 
+.btn-container{
+    text-align: start;
+}
 
 .article-btn{
     height: 48px;
@@ -229,6 +332,10 @@ header h1{
     text-align: start;
     font-size: 32px;
 
+}
+
+main{
+    padding: 2% 5%;
 }
 
 
@@ -249,6 +356,28 @@ footer{
     align-items: center;
     order: 1;
 
+}
+
+
+form{
+    width: 400px;
+    
+   }
+
+
+
+   #section2{
+    height: 200px;
+margin-top: 10%;
+}
+
+
+#section2 .row{
+    align-content: center;
+}
+
+#section div img{
+    padding-bottom: 30px;
 }
 
 }

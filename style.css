@@ -38,9 +38,21 @@ nav .nav-list-container{
     display: none;
 }
 
+/* .primary-btn:hover{
+    background-color: #36536B;
+    color: #F2F2F2;
+} */
 
 
+.butn-primary:hover{
+    background-color: rgba(186, 66, 112, 0.75);
+}
 
+
+.article-btn:hover{
+    color: #36536B;
+    background-color: #FBFCFE;
+}
 
   
   
@@ -190,6 +202,10 @@ aside h3{
       
   }
 
+
+  footer li{
+      cursor: pointer;
+  }
 
 
   /* footer ul{ */
