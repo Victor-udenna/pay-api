@@ -6,56 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
   <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="normalize.css">
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;600&family=Poppins:wght@300;500&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@300;500&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">  
   <title>Home | PayAPI Website Challenge</title>
 </head>
 
 <style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
 
-
-
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 </style>
 
 <body class="">
 
 
-  <nav>
-
-    <div class="logo">
-      <img src="./assets/shared/desktop/logo.svg" alt="">
+  <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="./assets/shared/desktop/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="./assets/shared/mobile/menu.svg" alt="">
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html">Contact</a>
+          </li>
+       
+          </li>
+        </ul>
+        <div>
+          <button type="button" class="nav-butn-primary">Schedule a demo</button>
+        </div>
+      </div>
     </div>
-
-  <div class="nav-list-container">
-    <ul class="list-inline">
-      <li class="list-inline-item">
-        <a href="pricing.html" class="text-muted">Pricing</a>
-      </li>
-
-      <li class="list-inline-item">
-
-        <a href="about.html" class="text-muted">About</a>
-      </li>
-      <li class="list-inline-item">
-
-        <a href="contact.html" class="text-muted">Contact</a>
-      </li>
-    </ul>
-
-    <button type="submit" class="butn-primary">Schedule a Demo</button>
-
-  </div>
-
-
-    <div class="menu">
-<img src="./assets/shared/mobile/menu.svg" alt="">
-    </div>
-
   </nav>
+
 
 
   <header class="container">
@@ -87,7 +96,7 @@
 
   <article class="row gx-2 gy-2 pt-5 text-align-center w-100">
 
-    <section class="col-sm-12 col-md-8 col-lg-6 row mx-auto px-3 gy-3 pt-4">
+    <section class="col-sm-12 col-md-8 col-lg-6 row mx-auto px-3 gy-3 pt-4 mt-5">
 
       <div class="col-6 col-sm-6 col-md-4 mb-3">
         <img src="./assets/shared/desktop/tesla.svg" alt="tesla" width="90%">
@@ -117,7 +126,7 @@
 
 
 
-    <section class="col-sm-12 col-md-12 col-lg-6 article-text-container">
+    <section class="col-sm-12 col-md-12 col-lg-6 article-text-container mt-5">
       <h2 style="color: #FBFCFE;">Who we work with</h2>
       <p style="color: #FBFCFE; opacity: 0.7;" class="p-article mb-5">
         Today, millions of people around the world have successfully
@@ -132,8 +141,7 @@
       </p>
 
 
-      <button class="btn rounded-pill  btn-lg mt-5 article-btn"
-        style="background-color: #1b262f00; color:#FBFCFE; border: 1px solid #FBFCFE;"> About us</button>
+      <button class="article-btn mt-5"> About us</button>
 
 
     </section>
@@ -246,7 +254,7 @@
     <ul class="footer-list">
       <li class="mb-4">
         <div class="footer-logo">
-          <img src="./assets/shared/desktop/logo.svg" alt="">
+          <a href="index.html"><img src="./assets/shared/desktop/logo-footer.svg" alt=""></a>
         </div>
       </li>
 

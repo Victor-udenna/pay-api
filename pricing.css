@@ -1,11 +1,62 @@
 body{
+    background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
+    background-position: center top -550px;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
     /* background-color: #F2F2F2; */
+    /* background-color:  #F2F2F2; */
+    /* background-color: #f2f2f29b; */
+    margin: 0;
+    padding: 0;
     font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+
 }
+
+body p{
+    color: #36536B;
+    font-weight: 400;
+}
+
+h1, h2, h3{
+    font-family: 'DM Serif Display', serif
+}
+
+.nav-butn-primary{
+    height: 48px;
+    width: 173px;  
+    background-color: #BA4270; 
+    color: #FBFCFE; 
+    border: none;
+    display: block;
+    border-radius: 24px;
+    margin: auto;
+    font-weight: 700;   
+  }
+
+  nav{
+    font-weight: 700;
+}
+
+  nav ul li{
+    text-align: center;
+    
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #36536B;
+}
+
+  .navbar-toggler{
+      border: none;
+  }
+
 
 header h1{
     text-align: center;
     font-size: 32px;
+
 
 }
 
@@ -114,6 +165,11 @@ footer li{
         font-size: 48px;
     }
     
+    nav ul li{
+        padding-left: 40px;
+         }
+
+
 
     .pricing-main-text{
         text-align: center;
@@ -153,6 +209,18 @@ footer li{
 
 @media screen and (min-width: 992px){
 
+
+    body{
+        background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
+        background-position:  right top -550px;
+        background-size: 780px 780px;
+    }
+
+    nav{
+        margin: 1% 3%;
+    }
+
+
     header h1{
         text-align: start;
         font-size: 56px;
@@ -162,6 +230,13 @@ footer li{
     }
     
 
+    main{
+        padding: 2% 5%;
+    }
+
+    nav ul li{
+        padding-left: 30%;
+         }
 
 .pricing-main-text{
     text-align: start;
