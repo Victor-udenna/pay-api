@@ -51,6 +51,8 @@ h1, h2, h3{
 
   nav ul li{
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
     
 }
 
@@ -333,7 +335,7 @@ aside h3{
      .article-text-container{
         width: 456px;
         margin: auto;
-        text-align: center; 
+        /* text-align: center;  */
      }
 
 /*      
@@ -434,7 +436,7 @@ aside h3{
 
     .article-text-container{
         width: 445px;
-        text-align: start;
+        /* text-align: start; */
         margin: auto;
          
      }
