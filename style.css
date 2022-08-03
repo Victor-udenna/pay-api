@@ -1,24 +1,12 @@
-
-
-/* nav{
-  
-    
-
-} */
-
-
 body{
     background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
     background-position: center top -550px;
-    /* background-size: 100%; */
     background-repeat: no-repeat;
-    /* background-color: #F2F2F2; */
-    /* background-color:  #F2F2F2; */
-    /* background-color: #f2f2f29b; */
     margin: 0;
     padding: 0;
     font-size: 15px;
     font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -65,11 +53,6 @@ nav ul li a{
       border: none;
   }
  
-
-/* .primary-btn:hover{
-    background-color: #36536B;
-    color: #F2F2F2;
-} */
 
 
 .butn-primary:hover{
@@ -145,14 +128,6 @@ header{
       padding-left: 27px;
   }
 
-  /* header h1{
-      width: 327px;
-      height: 108px;
-      margin: auto;
-      display: block;
-      padding-left: 1rem;
-      text-align: center;
-  } */
 
   header h1{
       font-size: 32px;
@@ -171,7 +146,6 @@ header{
     width: 327px;
     text-align: center;
     line-height: 28px;
-    /* text-align: center;  */
  }
 
  article p{
@@ -239,13 +213,11 @@ aside h3{
 
 
   footer{
-      /* margin: 10px; */
      background-color: #1B262F;
      padding: 0;
      display: flex;
      flex-direction: column;
      margin: 0;
-     /* padding-left: 1rem; */
      padding-right: 1rem;
      padding-top: 10%;
       
@@ -255,11 +227,6 @@ aside h3{
   footer li{
       cursor: pointer;
   }
-
-
-  /* footer ul{ */
-      /* list-style-type: ; */
-  /* } */
 
    footer a{
     color:  #FBFCFE;
@@ -295,12 +262,6 @@ aside h3{
          }
 
 
-   
-
-  /* header .container{
-      margin-top: 10%;
-  } */
-
 
     .header-img{
         width: 200px;
@@ -335,15 +296,8 @@ aside h3{
      .article-text-container{
         width: 456px;
         margin: auto;
-        /* text-align: center;  */
      }
 
-/*      
-     .article-btn{
-         width: 128px;
-         display: block;
-         margin: auto;
-     } */
     
     
      .main-text{
@@ -436,7 +390,6 @@ aside h3{
 
     .article-text-container{
         width: 445px;
-        /* text-align: start; */
         margin: auto;
          
      }
@@ -448,9 +401,7 @@ aside h3{
         height: 48px;
         width: 129px;
         left: 0px;
-        /* margin-left: 40%; */
         top: 0px;
-        /* text-align: ; */
         border-radius: 24px;
         
      } 
@@ -483,19 +434,8 @@ aside h3{
     .list-inline{
         flex-basis: 45%;
         justify-content: end;
-        /* padding-right: 50px; */
         
     }
-
-    /* .item1{
-        margin-right: 20px;
-    } */
-
-    /* .list-inline-item{ */
-        /* margin: 0px  0px 0px; */
-    /* } */
-   
-    
 
 
   }

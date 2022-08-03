@@ -1,12 +1,7 @@
 body{
     background-image: url("./assets/shared/desktop/bg-pattern-circle.svg");
     background-position: center top -550px;
-    /* background-size: 100%; */
     background-repeat: no-repeat;
-    /* background-color: #F2F2F2; */
-    /* background-color:  #F2F2F2; */
-    /* background-color: #f2f2f29b; */
-    margin: 0;
     padding: 0;
     font-size: 15px;
     font-family: 'Public Sans', sans-serif;
@@ -62,8 +57,6 @@ header h1{
 
 
 main{
-    /* padding-right: 10%; */
-    /* background-color: #F2F2F2; */
     width: 100%;
     margin: 0;
 }
@@ -130,7 +123,6 @@ margin-left: 6%;
     display: block;
     width: 90%;
     margin: auto;
-    /* margin-left: ; */
 }
 
 main p{
@@ -141,11 +133,7 @@ display: none;
 main li{
     margin-bottom: 3px;
 }
-/* main ul{
-    border-top: 1px solid ;
-    border-bottom: 1px solid;
-    opacity: 0.25;
-} */
+
 
 span img{
     padding-right: 10px;
@@ -188,10 +176,6 @@ footer li{
         height: 84px;
         width: 223px;
         display: block;
-        /* left: 0px;
-        top: 53px;
-        border-radius: nullpx; */
-        
         }
 
 
